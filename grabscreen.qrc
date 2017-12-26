@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="grabScreen">
+    <file>Resources/denglu_guanbi.png</file>
+    <file>Resources/denglu_suoxiao.png</file>
+    <file>Resources/close.png</file>
+    <file>Resources/close_hover.png</file>
+    <file>Resources/minimize.png</file>
+    <file>Resources/minimize_hover.png</file>
+    <file>Resources/screen.png</file>
+    <file>Resources/shutter.wav</file>
+  </qresource>
+</RCC>
