@@ -61,7 +61,7 @@ void grabScreen::createActions()
 
 	//创建托盘项
 	action_show = new QAction(this);
-	action_quit = new QAction(this);
+	action_quit = new QAction(this);//修改工具
 	
 
 	////设置托盘项图标
@@ -137,7 +137,7 @@ void grabScreen::grabFullScreen()
 		data->setImageData(region);
 		cb->setMimeData(data, QClipboard::Clipboard);
 		//region.save("../../screen/" + fileName, "PNG");
-		if (!region.save("../screen/" + fileName, "PNG"))
+		if (!region.save("../screen/" + fileName, "PNG")) //das
 		{
 			QMessageBox::information(this, "Right", QStringLiteral("保存错误 !"), QMessageBox::Ok);
 
