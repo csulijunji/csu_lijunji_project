@@ -61,7 +61,7 @@ void grabScreen::createActions()
 
 	//创建托盘项
 	action_show = new QAction(this);
-	action_quit = new QAction(this);//修改工具
+	action_quit = new QAction(this);   //修改工具fsaf
 	
 
 	////设置托盘项图标
